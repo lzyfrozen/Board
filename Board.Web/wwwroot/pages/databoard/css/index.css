@@ -1,0 +1,130 @@
+﻿.tablebox {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tbl-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.tbl-header th {
+    color: #333300;
+    text-align: left;
+    background-color: #e2e1e6;
+    border: 2px solid #e2e1e6;
+}
+
+.tbl-body {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+    .tbl-body th {
+        color: #545657;
+        font-family: '宋体';
+        text-align: left;
+    }
+
+    .tbl-body tr:nth-child(2n) {
+        background: #efeef3;
+    }
+
+    .tbl-body td {
+        color: #545657;
+    }
+
+.tablebox1 {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tbl-header1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+    .tbl-header1 th {
+        color: #333300;
+        text-align: left;
+        background-color: #e2e1e6;
+        border: 2px solid #e2e1e6;
+    }
+
+.tbl-body1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+    .tbl-body1 th {
+        color: #545657;
+        font-family: '宋体';
+        text-align: left;
+    }
+
+    .tbl-body1 tr:nth-child(2n) {
+        background: #efeef3;
+    }
+
+    .tbl-body1 td {
+        color: #545657;
+    }
+
+.tablebox2 {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tbl-header2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+    .tbl-header2 th {
+        color: #333300;
+        text-align: left;
+        background-color: #e2e1e6;
+        border: 1px solid #e2e1e6;
+    }
+
+.tbl-body2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+    .tbl-body2 th {
+        color: #545657;
+        font-family: '宋体';
+        text-align: left;
+    }
+
+    .tbl-body2 tr:nth-child(2n) {
+        background: #efeef3;
+    }
+
+    .tbl-body2 td {
+        color: #545657;
+    }

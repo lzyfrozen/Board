@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Board.HttpApi</name>
+    </assembly>
+    <members>
+        <member name="T:Board.HttpApi.Controllers.DataBoardController">
+            <summary>
+            DataBoardController
+            </summary>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.DataBoardController.Test">
+            <summary>
+            Test
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.DataBoardController.GetKanbanList">
+            <summary>
+            GetKanbanList
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.DataBoardController.GetHumiture">
+            <summary>
+            GetHumiture
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.DataBoardController.GetServerTime">
+            <summary>
+            GetServerTime
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Board.HttpApi.Controllers.HelloWorldController">
+            <summary>
+            HelloWorldController
+            </summary>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.HelloWorldController.#ctor(Microsoft.Extensions.Logging.ILogger{Board.HttpApi.Controllers.HelloWorldController},Board.Application.ITestService)">
+            <summary>
+            构造
+            </summary>
+            <param name="logger"></param>
+            <param name="testService"></param>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.HelloWorldController.Hello">
+            <summary>
+            Hello
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.HelloWorldController.TestDB">
+            <summary>
+            TestDB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.HelloWorldController.TestDB2">
+            <summary>
+            TestDB2
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.Controllers.HelloWorldController.TestDatahub">
+            <summary>
+            TestDatahub
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Board.HttpApi.SwaggerExtensions">
+            <summary>
+            SwaggerExtensions
+            </summary>
+        </member>
+        <member name="F:Board.HttpApi.SwaggerExtensions.version">
+            <summary>
+            当前API版本，从appsettings.json获取
+            </summary>
+        </member>
+        <member name="F:Board.HttpApi.SwaggerExtensions.description">
+            <summary>
+            Swagger描述信息
+            </summary>
+        </member>
+        <member name="M:Board.HttpApi.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            AddSwagger
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Board.HttpApi.SwaggerExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            UseSwaggerUI
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="P:Board.HttpApi.SwaggerExtensions.SwaggerApiInfo.UrlPrefix">
+            <summary>
+            URL前缀
+            </summary>
+        </member>
+        <member name="P:Board.HttpApi.SwaggerExtensions.SwaggerApiInfo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Board.HttpApi.SwaggerExtensions.SwaggerApiInfo.OpenApiInfo">
+            <summary>
+            <see cref="T:Microsoft.OpenApi.Models.OpenApiInfo"/>
+            </summary>
+        </member>
+    </members>
+</doc>
