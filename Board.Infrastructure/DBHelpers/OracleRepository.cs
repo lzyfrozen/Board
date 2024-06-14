@@ -18,7 +18,10 @@ namespace Board.Infrastructure.DBHelpers
         }
         public GridReader QueryMultiple(string query, object? parameters = null)
         {
-            return conn.QueryMultiple(query, parameters);
+            using (var conn = DBHelper.Connection)
+            {
+                return conn.QueryMultiple(query, parameters);
+            }
         }
 
         public IEnumerable<TAny> Query<TAny>(string query, object? parameters = null)
